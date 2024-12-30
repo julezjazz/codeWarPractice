@@ -2,9 +2,7 @@
 using System.Linq;
 using System.Linq.Expressions;
 
-// int n = Int32.Parse(Console.ReadLine());
-
-int n = 17;
+int n = Int32.Parse(Console.ReadLine());
 
 List<int> list = new List<int>();
 int max = n / 2;
@@ -22,7 +20,7 @@ if (list.Count == 0) {
     Console.WriteLine(n + " is a prime number");
 }
 
-// Console.WriteLine(list[^1]);
+
 
 
 
